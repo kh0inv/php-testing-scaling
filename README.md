@@ -17,7 +17,7 @@ chown apache:root /var/www/html/rds.conf.php
 amazon-linux-extras install epel -y
 yum install stress -y
 ```
-
+stress command
 ```
 stress --cpu 2 --timeout 60
 ```
