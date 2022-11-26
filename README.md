@@ -1,8 +1,8 @@
 ## EC2 User-data
 ```
 #!/bin/bash -ex
-yum -y update
-yum -y install httpd php mysql php-mysql git
+yum update -y
+yum install -y httpd php mysql php-mysql git
 systemctl enable httpd
 systemctl start httpd
 cd /var/www/html
