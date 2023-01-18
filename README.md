@@ -18,8 +18,9 @@ amazon-linux-extras install epel -y
 yum install stress -y
 ```
 
+Install on Ubuntu 
 ```
-sudo apt install -y stress
+apt install -y stress
 ```
 
 stress command
